@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+   
+
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="/logo.png" alt="loading">
+
+            <div class="left_font">ASM Studio</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="online.html">Go Online</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn" id="btn1"
+                onclick="location.href='https://www.linkedin.com/in/aditya-morankar-488b2b182/'"><img
+                    src="/linkedln.png" alt=""></button>
+            <button class="btn" id="btn2"
+                onclick="location.href='https://www.youtube.com/channel/UC8-Tk4WjCa1BGjEcWGunvgg/videos'"><img
+                    src="/youtube.png" alt=""></button>
+            <button class="btn" id="btn3"
+                onclick="location.href='https://www.facebook.com/aditya.morankar.1?ref=bookmarks'"><img
+                    src="/facebook.png" alt=""></button>
+
+
+
+        </div>
+
+        <div class="textt">
+
+            <h1>This is ASM Studio!</h1>
+            <h3>by Aditya Morankar</h3>
+        </div>
+
+        <div class="textt1">
+
+            <h1>This is ASM Studio!</h1>
+            <h3>by Aditya Morankar</h3>
+        </div>
+
+    </header>
+    <header class="header1">
+        <div class="container">
+            <div class="box" id="box1">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/Z2MmQATqTFU?autoplay=0"></iframe>
+                <p><strong>GoalIT</strong><br><br>
+                    Its hypercasual game.<br>
+                    Easy to play and simple controls.<br>
+                    Get to the goal and avoid all obstacles.<br>
+                    Be aware of spikes.<br>
+                    intresting levels are waiting for you.<br>
+                    Enjoy !!!
+                </p>
+
+            </div>
+
+            <div class="box" id="box2">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/uDM23sDEeEE?autoplay=0"></iframe>
+                <p><strong>Mr.Amoeba</strong><br><br>
+                    Player needs to control character name amoeba, <br>
+                    Food will be instantiate in arena,player use to grab food. <br>
+                    There are enemies which use to follow and kill us, <br>
+                    all we need to shoot them. <br>
+                    There is one special power-up which help player to kill enemies.
+                </p>
+
+            </div>
+
+            <div class="box" id="box3">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/04pzbNqQ36c?autoplay=0"></iframe>
+                <p><strong>ASM racing</strong><br><br>
+                    This was my first project developed back in 2016. <br>
+                    I had used Unity Standard Asset for 3d models. <br>
+                    I tried to manipulate graphics using post processing and render pipelines.
+
+                </p>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="back_2"></div>
+        </div>
+
+      
+    </header>
+
+
+   
+
+    <script>
+
+        function check_width()
+        {
+            if(screen.availWidth< 1800)
+                {
+                    console.log("invalid");
+                    alert("Sorry, Your device isn't compatible, This website is optimize only for desktop");
+
+                }
+        }
+        
+
+        
+
+        setInterval(check_width,  3000);
+        
+    </script>
+
+</body>
+
+</html>

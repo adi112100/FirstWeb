@@ -1,0 +1,194 @@
+/* apply styling to all */
+*{
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/bg.jpg");
+    background-attachment: fixed;
+    height: 6000px;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.header{
+    color: white
+}
+.left{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    display: inline-block;
+    
+
+}
+.left div {
+
+    font-family: 'Karla', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    
+    
+}
+.left img{
+    transition-duration: 300ms;
+    width: 150px;
+}
+
+.left img:hover{
+
+    width: 160px;
+    transition-duration: 300ms;
+}
+
+.mid{
+    /* border: 2px solid red; */
+    width: 50%;
+    top: 50px;
+    margin: 50px auto;
+    
+
+}
+
+.right{
+    /* border: 2px solid red; */
+    z-index: 100;
+    position: fixed;
+    right: 40px;
+    top:50px;
+    width: 17%;
+    display: inline-block;
+    
+
+}
+
+.textt{
+
+    position: relative;
+    top: 190px;
+    border: 2px solid white;
+    width: 800px;
+    height: 200px;
+    margin:auto;
+    padding: 65px ;
+
+}
+
+.textt h1,h3{
+    text-align: center;
+
+}
+
+.textt h1{
+
+    font-size: 3.5rem;
+}
+
+.textt h3{
+    
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+
+.textt1{
+
+    position: relative;
+    top: 500px;
+    
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin:auto;
+    padding: 65px ;
+
+}
+
+.textt1 h1,h3{
+    text-align: center;
+
+}
+
+.textt1 h1{
+
+    font-size: 3.5rem;
+}
+
+.textt1 h3{
+    
+    padding: 10px;
+    font-size: 2.5rem;
+
+}
+
+
+
+
+
+.navbar{
+    display: inline-block;
+     
+    
+}
+
+.navbar li{
+    display: inline-block;
+    
+    
+}
+
+.navbar li a{
+    color: white;
+    transition-duration: 500ms;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 10px 10px;
+
+
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    font-size: 60px;
+    transition-duration: 500ms;
+    color: rgb(197, 197, 197);
+    
+}
+
+.btn{
+    
+    padding: 10px;
+    margin: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 40px;
+    
+   
+
+}
+
+.btn:hover{
+
+    background-color: rgba(80, 78, 78, 0.363);
+
+}
+
+.btn img{
+    transition-duration: 200ms;
+    width: 35px;
+
+}
+
+.btn img:hover{
+    width: 45px;
+    transition-duration: 100ms;
+
+}
